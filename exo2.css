@@ -1,0 +1,360 @@
+body
+{
+    margin: 0;
+    margin-top: 3%;
+    padding: 0;
+    width: 900px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+#corps
+{
+    width: 55%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: rgb(214, 214, 214);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 100px 20px;
+}
+#ecran
+{   
+    width: 80%;
+    height: 35%;
+    border: 1px solid black;
+    margin: 0;
+    background-color: rgb(77, 77, 77);
+    border-radius: 20px 20px 100px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#bouttonbatterie
+{
+    margin: 0;
+    margin-left: 50%;
+    margin-bottom: 10%;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: black;
+}
+#battery
+{
+    margin: 0;
+    padding: 0;
+    margin-left: 15%;
+    font-size: 0.7em;
+    color: white;
+    padding: 0;
+}
+#batterie
+{
+    width: 10%;
+    height: 80%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8%;
+}
+header
+{
+    margin: 0;
+    padding: 0%;
+    padding-bottom: 1%;
+    width: 74%;
+    height: 5%;
+    align-self: start;
+    margin-left: 14%;
+    margin-right: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border-right: solid rgb(187, 187, 187) 5px;
+    border-left: solid rgb(187, 187, 187) 5px;
+}
+h1
+{
+    margin: 0%;
+    margin-left: 3%;
+    padding: 0%;
+    width: 26%;
+    height: 100%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1em;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 1px black;
+    text-align: center;
+}
+#boutons
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+}
+#plus
+{
+    width: 25%;
+    height: 72%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.blanc
+{
+    margin: 0;
+    padding: 0;
+    width: 33.333333333333333333333333333%;
+}
+.noirun
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 33.333333333333333333333333333%;
+    border-radius: 4px 4px 0px 0px;
+}
+.noirde
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 33.33333333333333333333333333333%;
+    border-radius: 4px 0px 0px 4px;
+}
+.noirtr
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 33.33333333333333333333333333333%;
+}
+.noirqu
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 33.33333333333333333333333333333%;
+    border-radius: 0px 4px 4px 0px;
+}
+.noirci
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 33.33333333333333333333333333333%;
+    border-radius: 0px 0px 4px 4px;
+}
+#ab
+{
+    margin: 0;
+    width: 30%;
+    height: 54%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-27deg);
+}
+#a
+{
+    margin: 0;
+    width: 34%;
+    height: 60%;
+    border: solid black 1px;
+    background-color: rgb(172, 27, 75);
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px black;
+}
+#b
+{
+    margin: 0;
+    width: 34%;
+    height: 60%;
+    border: solid black 1px;
+    background-color: rgb(172, 27, 75);
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px black;
+}
+.lettre
+{
+    height: 5%;
+    margin: 0;
+    color: rgb(54, 54, 253);
+}
+#boutons
+{
+    margin: 0;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#nintendo
+{
+    margin: 1% 30% 6% 0%;
+    font-size: 1.1em;
+    color: rgb(54, 54, 253);
+}
+#gameboy
+{
+    font-size: 1.3em;
+}
+#tm
+{
+    font-size: 0.5em;
+}
+#gif
+{
+    background: url(image/pokemon.gif) center;
+    width: 70%;
+    height: 80%;
+    margin-bottom: 5%;
+    margin-right: 11%;
+    margin-left: 0%;
+    border-radius: 5px;
+    align-self: start;
+}
+#dd
+{
+    margin: 0;
+    margin-top: 1%;
+    margin-right: 4%;
+    height: 1.5%;
+    width: 25%;
+    border-top: 4px solid rgb(172, 27, 75);
+    border-bottom: 4px solid rgb(54, 54, 253);
+}
+#dg
+{
+    margin: 0;
+    margin-top: 1%;
+    margin-left: 4%;
+    height: 1.5%;
+    width: 10%;
+    border-top: 4px solid rgb(172, 27, 75);
+    border-bottom: 4px solid rgb(54, 54, 253);
+}
+#dot
+{
+    margin: 0;
+    margin-top: 1%;
+    height: 5%;
+    width: 48%;
+    font-size: 0.6em;
+    color: white;
+}
+#tampon
+{
+    width: 100%;
+    height: 4.5%;
+    border-top: solid rgb(187, 187, 187) 5px;
+}
+#bas
+{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#air
+{
+    width: 30%;
+    height: 50%;
+    margin: 0%;
+    margin-right: 5%;
+    padding-left: 0%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotate(-27deg);
+}
+#ss
+{
+    width: 30%;
+    height: 42%;
+    align-self: center;
+    display: flex;
+    margin-bottom: 10%;
+}
+#s
+{
+    width: 70%;
+    height: 17%;
+    background-color: grey;
+    margin: 4%;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+#ste
+{
+    width: 80%;
+    height: 20%;
+    color: rgb(54, 54, 253);
+    text-align: center;
+    font-size: 0.93em;
+    margin: 4%;
+}
+.rot
+{
+    height: 100%;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-27deg);
+}
+.un
+{
+    width: 33%;
+    height: 80%;
+    background-color: rgb(141, 140, 140);
+    border-radius: 30px;
+    box-shadow: inset 3px 3px 3px black;
+}
+.de
+{
+    width: 66%;
+    height: 100%;
+}
+footer
+{
+    width: 100%
+    
+}
+h4
+{
+    margin: 0%;
+    margin-left: 45%;
+    padding: 0%;
+    width: 10%;
+    height: 100%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 0.5em;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 1px black;
+    text-align: center;
+}
